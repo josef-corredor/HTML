@@ -1,0 +1,50 @@
+:root{
+    --fondo:black;
+    --degrad:linear-gradient(90deg, black, red);
+    --font:rgb(255, 0, 0);
+}
+
+@font-face {
+     font-family: Milky Coffee;
+     src: url(../fonts/Milky\ Coffee.ttf);
+ } 
+body {
+    font-family: Milky Coffee;
+    background-color: var(--fondo);
+    background-image: url(../img/costelaciones.jpg);
+    color: var(--font);
+  }
+  neon {
+	color: #fff;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+  .navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #testimonial {
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+  }
+  
